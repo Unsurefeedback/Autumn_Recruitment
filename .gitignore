@@ -1,0 +1,43 @@
+# 忽略所有 .log 文件
+*.log
+
+# 忽略所有 .tmp 文件
+*.tmp
+
+# 忽略所有 .env 文件
+*.env
+
+# 忽略所有 .lock 文件
+*.lock
+
+# 忽略所有 .idea 目录
+.idea/
+
+# 忽略所有 .vscode 目录
+.vscode/
+
+# 忽略所有的 node_modules 目录
+node_modules/
+
+# 忽略所有的 target 目录
+target/
+
+# 忽略所有的 bower_components 目录
+bower_components/
+
+# 忽略所有的 dist 目录
+dist/
+
+# 忽略所有的 build 目录
+build/
+
+# 忽略所有的 coverage 目录
+coverage/
+
+# 忽略所有的 *.yml 文件，但跟踪 my.yml 文件
+*.yml
+!my.yml
+
+# 忽略所有的 .txt 文件，除了 readme.txt
+*.txt
+!readme.txt
