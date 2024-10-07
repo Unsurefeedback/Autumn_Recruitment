@@ -11,12 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
  **/
 @RestController
 public class IndexController {
-    @Autowired
-    private IpCounterService ipCounterService;
+
 
     @GetMapping("/starter")
     public String index(){
-        ipCounterService.record();
         return "Hello,Starter!";
     }
 }
