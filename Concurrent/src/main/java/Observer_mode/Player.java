@@ -35,3 +35,4 @@ class Player implements Observer {
         System.out.println(this.name + "被攻击！");
         acc.notifyObserver(name);
     }
+}

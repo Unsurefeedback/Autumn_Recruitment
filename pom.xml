@@ -15,6 +15,7 @@
         <module>ip-counter-boot-starter</module>
         <module>test-ip-counter</module>
         <module>JavaSE</module>
+        <module>JVM</module>
     </modules>
 
     <properties>
