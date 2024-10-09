@@ -16,6 +16,7 @@
         <module>test-ip-counter</module>
         <module>JavaSE</module>
         <module>JVM</module>
+        <module>resume</module>
     </modules>
 
     <properties>
