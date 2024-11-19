@@ -40,6 +40,11 @@
             <artifactId>guava</artifactId>
             <version>19.0</version> <!-- 请替换为你想使用的版本，例如 31.0.1-jre -->
         </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>transmittable-thread-local</artifactId>
+            <version>2.14.5</version>
+        </dependency>
     </dependencies>
 
 </project>
